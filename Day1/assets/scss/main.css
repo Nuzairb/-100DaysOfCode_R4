@@ -7,9 +7,9 @@ body {
 .page_wrapper header {
   width: 100vw;
   height: 100vh;
-  background: #FFCE00;
-  background: -webkit-gradient(linear, right bottom, left top, color-stop(50%, #171717), color-stop(50%, #FFCE00));
-  background: linear-gradient(to top left, #171717 50%, #FFCE00 50%);
+  background: #F3F3F3;
+  background: -webkit-gradient(linear, right bottom, left top, color-stop(50%, #6DE4DD), color-stop(50%, #F3F3F3));
+  background: linear-gradient(to top left, #6DE4DD 50%, #F3F3F3 50%);
 }
 
 .page_wrapper header .logo {
@@ -23,40 +23,39 @@ body {
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  color: #171717;
   font-size: 72px;
   font-weight: 900;
 }
 
 .page_wrapper header .title .left {
+  color: #6DE4DD;
   -webkit-transform: translate(-40%, 50%);
           transform: translate(-40%, 50%);
 }
 
 .page_wrapper header .title .right {
-  color: #FFCE00;
+  color: #F3F3F3;
   -webkit-transform: translate(60%, -50%);
           transform: translate(60%, -50%);
 }
 
 .page_wrapper header [class^="sub-title"] {
-  color: #171717;
   font-size: 32px;
-  font-weight: 100;
+  font-weight: 400;
 }
 
 .page_wrapper header .sub-title-top {
   position: absolute;
-  left: 51%;
+  left: 42%;
   top: 40%;
   -webkit-transform: translateX(-100%);
           transform: translateX(-100%);
-  color: #171717;
+  color: #6DE4DD;
 }
 
 .page_wrapper header .sub-title-bottom {
   position: absolute;
-  left: 50%;
+  left: 45%;
   top: 55%;
   color: #F3F3F3;
 }

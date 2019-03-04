@@ -10,8 +10,8 @@ body {
     header {
         width: 100vw;
         height: 100vh;
-        background: $primary;
-        background: linear-gradient(to top left, $dark 50%, $primary 50%);
+        background: $light;
+        background: linear-gradient(to top left, $primary 50%, $light 50%);
         .logo {
             width: 70px;
             margin: 15px;
@@ -21,35 +21,34 @@ body {
             left: 50%;
             top: 50%;
             transform: translate(-50%, -50%);
-            color: $dark;
             font-size: 72px;
             font-weight: 900;
             
             .left {
+                color: $primary;
                 transform: translate(-40%, 50%);
             }
             .right {
-                color: $primary;
+                color: $light;
                 transform: translate(60%, -50%);
             }
         }
 
         [class^="sub-title"] {
-            color: $dark;
             font-size: 32px;
-            font-weight: 100;
+            font-weight: 400;
         }
 
         .sub-title-top {
             position: absolute;
-            left: 51%;
+            left: 42%;
             top: 40%;
             transform: translateX(-100%);
-            color: $dark;
+            color: $primary;
         }
         .sub-title-bottom {
             position: absolute;
-            left: 50%;
+            left: 45%;
             top: 55%;
             color: $light;
         }
