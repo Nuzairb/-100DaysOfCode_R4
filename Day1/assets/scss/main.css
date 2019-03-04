@@ -8,8 +8,8 @@ body {
   width: 100vw;
   height: 100vh;
   background: #F3F3F3;
-  background: -webkit-gradient(linear, right bottom, left top, color-stop(50%, #6DE4DD), color-stop(50%, #F3F3F3));
-  background: linear-gradient(to top left, #6DE4DD 50%, #F3F3F3 50%);
+  background: -webkit-gradient(linear, right bottom, left top, color-stop(50%, #50ca89), color-stop(50%, #F3F3F3));
+  background: linear-gradient(to top left, #50ca89 50%, #F3F3F3 50%);
 }
 
 .page_wrapper header .logo {
@@ -28,7 +28,7 @@ body {
 }
 
 .page_wrapper header .title .left {
-  color: #6DE4DD;
+  color: #50ca89;
   -webkit-transform: translate(-40%, 50%);
           transform: translate(-40%, 50%);
 }
@@ -50,7 +50,7 @@ body {
   top: 40%;
   -webkit-transform: translateX(-100%);
           transform: translateX(-100%);
-  color: #6DE4DD;
+  color: #50ca89;
 }
 
 .page_wrapper header .sub-title-bottom {
