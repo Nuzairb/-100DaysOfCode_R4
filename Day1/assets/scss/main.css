@@ -7,9 +7,14 @@ body {
 .page_wrapper header {
   width: 100vw;
   height: 100vh;
-  background: #171717;
-  background: -webkit-gradient(linear, right bottom, left top, color-stop(50%, #FFCE00), color-stop(50%, #171717));
-  background: linear-gradient(to top left, #FFCE00 50%, #171717 50%);
+  background: #FFCE00;
+  background: -webkit-gradient(linear, right bottom, left top, color-stop(50%, #171717), color-stop(50%, #FFCE00));
+  background: linear-gradient(to top left, #171717 50%, #FFCE00 50%);
+}
+
+.page_wrapper header .logo {
+  width: 70px;
+  margin: 15px;
 }
 
 .page_wrapper header .title {
@@ -18,20 +23,41 @@ body {
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  color: #FFCE00;
+  color: #171717;
   font-size: 72px;
   font-weight: 900;
 }
 
 .page_wrapper header .title .left {
-  font-weight: 100;
-  -webkit-transform: translateX(-100%);
-          transform: translateX(-100%);
+  -webkit-transform: translate(-40%, 50%);
+          transform: translate(-40%, 50%);
 }
 
 .page_wrapper header .title .right {
+  color: #FFCE00;
+  -webkit-transform: translate(60%, -50%);
+          transform: translate(60%, -50%);
+}
+
+.page_wrapper header [class^="sub-title"] {
   color: #171717;
-  -webkit-transform: translateX(100%);
-          transform: translateX(100%);
+  font-size: 32px;
+  font-weight: 100;
+}
+
+.page_wrapper header .sub-title-top {
+  position: absolute;
+  left: 51%;
+  top: 40%;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  color: #171717;
+}
+
+.page_wrapper header .sub-title-bottom {
+  position: absolute;
+  left: 50%;
+  top: 55%;
+  color: #F3F3F3;
 }
 /*# sourceMappingURL=main.css.map */
